@@ -25,6 +25,9 @@
 				messagingSenderId: "138495304196"
 			  };
 			  firebase.initializeApp(config);
+			  
+				  	
+			  
 			  firebase.auth().onAuthStateChanged(function(user) {
 				  if (user) {
 					  window.location = "gallery.html"
